@@ -1,0 +1,14 @@
+.button-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  background-image: url('https://images3.alphacoders.com/770/thumb-1920-77057.jpg')
+}
+
+.button-panel > div {
+  width: 60%;
+  margin-bottom: 1px;
+  flex: 1 0 auto;
+  display: flex;
+}
